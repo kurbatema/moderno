@@ -863,4 +863,55 @@ body {
   outline: none;
   cursor: pointer;
 }
+
+.author {
+  min-height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.author__box {
+  width: 100%;
+  max-width: 650px;
+  min-height: 215px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #8bc34a;
+}
+
+.author__title {
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+  margin-right: 45px;
+  max-width: 280px;
+}
+
+.author__title span {
+  font-weight: 700;
+}
+
+.author__link {
+  font-size: 18px;
+  line-height: 36px;
+  padding: 14px 40px;
+  background-color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
